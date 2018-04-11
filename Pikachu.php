@@ -9,7 +9,7 @@ class Pikachu extends Pokemon {
 			$name,
 			$this->energyType,
 			$this->hitpoints,
-			array(new Attack('Electric Ring', 50), new Attack('Pika Punch', 20)),
+			array(new Attack('Electric Ring', 50), new Attack('Pika Punch', 20), new Attack('Electric Ring', 50)),
 			new Weakness('Fire', 1.5),
 			new Resistance('Fighting', 20)
 		);

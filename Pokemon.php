@@ -35,6 +35,7 @@ class Pokemon {
                 // de totale schade van een Attack wordt verminderd op de health van de Pokemon die wordt aangevallen
                 $newHealth = $pokemon->health - $damage;
                 $pokemon->health = $newHealth;
+                
             }
         }
     }
